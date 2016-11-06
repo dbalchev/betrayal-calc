@@ -1,0 +1,6 @@
+<div class="outer">
+    <div *ngFor="let summary of summaries()" class="inner">
+        <app-distribution-summary [summaryEntry]="summary">
+        </app-distribution-summary>
+    </div>
+</div>
