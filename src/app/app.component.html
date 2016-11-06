@@ -1,9 +1,8 @@
-<h1>
-  {{title}} {{n}}
-  <br/>
-  Your dice: <input [(ngModel)]="nPlusDice" type="number">
-  <br/>
-  Evil dice:  <input [(ngModel)]="nMinusDice" type="number">
-  <app-distribution-info [distribution]="distribution()">
-  </app-distribution-info>
-</h1>
+
+{{title}} {{n}}
+<br/>
+Your dice: <input [(ngModel)]="nPlusDice" type="number">
+<br/>
+Evil dice:  <input [(ngModel)]="nMinusDice" type="number">
+<app-distribution-info [distribution]="distribution()">
+</app-distribution-info>
