@@ -54349,7 +54349,7 @@ module.exports = ".wrapper{\r\n    border:solid black 1px;\r\n    width:7em;\r\n
 /* 594 */
 /***/ function(module, exports) {
 
-module.exports = "<h1>\r\n  {{title}} {{n}}\r\n  <br/>\r\n  Your dice: <input [(ngModel)]=\"nPlusDice\" type=\"number\">\r\n  <br/>\r\n  Evil dice:  <input [(ngModel)]=\"nMinusDice\" type=\"number\">\r\n  <app-distribution-info [distribution]=\"distribution()\">\r\n  </app-distribution-info>\r\n</h1>\r\n"
+module.exports = "\r\n{{title}} {{n}}\r\n<br/>\r\nYour dice: <input [(ngModel)]=\"nPlusDice\" type=\"number\">\r\n<br/>\r\nEvil dice:  <input [(ngModel)]=\"nMinusDice\" type=\"number\">\r\n<app-distribution-info [distribution]=\"distribution()\">\r\n</app-distribution-info>\r\n"
 
 /***/ },
 /* 595 */
@@ -56200,4 +56200,4 @@ module.exports = __webpack_require__(332);
 
 /***/ }
 ],[611]);
-//# sourceMappingURL=main.fd1252229bc1ea02f30e.bundle.map
+//# sourceMappingURL=main.1208143ea261ae82434e.bundle.map
